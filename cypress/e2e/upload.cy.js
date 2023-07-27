@@ -10,9 +10,4 @@ describe('Feature: Upload Image', () => {
     listPage.accessItem(row + 1) // row + 1 because the first row is the header
     itemPage.validateItem()
   })
-
-  // Id = 05_ListUpload
-  it('Given an item, when one image is added then the image is shown on the grid', () => {
-    listPage.visitList()
-  })
 })
